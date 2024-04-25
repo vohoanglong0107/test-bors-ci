@@ -1,0 +1,13 @@
+name: Sleep
+run-name: ${{ github.actor }} is sleeping
+on:
+  push:
+    branches:
+      - automation/bors/try
+      - automation/bors/try-merge
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sleep 30
