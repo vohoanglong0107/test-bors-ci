@@ -13,3 +13,4 @@ timeout = 3600
 try = ["+foo", "-bar"]
 try_succeed = ["+foobar", "+foo", "+baz"]
 try_failed = []
+ci_repo = "vohoanglong0107/test-bors-ci"
