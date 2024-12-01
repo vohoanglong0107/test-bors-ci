@@ -1,6 +1,7 @@
 # Maximum duration of CI workflows before they are considered timed out.
 # (Required)
 timeout = 3600
+ci_repo = "vohoanglong0107/test-bors-ci"
 
 # Labels that should be set on a PR after an event happens.
 # "+<label>" adds the label, while "-<label>" removes the label after the event.
@@ -13,4 +14,3 @@ timeout = 3600
 try = ["+foo", "-bar"]
 try_succeed = ["+foobar", "+foo", "+baz"]
 try_failed = []
-ci_repo = "vohoanglong0107/test-bors-ci"
